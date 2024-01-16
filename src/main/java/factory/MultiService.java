@@ -13,6 +13,9 @@ public class MultiService {
     private final Map<String, IService> serviceInterfaceMap;
 
     public String getByEnum(ServiceName serviceName) {
+        serviceInterfaceMap.get(serviceName.serviceName).operate();
         return serviceInterfaceMap.get(serviceName.serviceName).getInfoAboutService();
     }
+
+
 }

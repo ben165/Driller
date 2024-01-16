@@ -13,21 +13,21 @@ public class DrillingHead implements IDrillingHead{
 
     @Override
     public void start() {
-        System.out.println("Start Machine");
+        System.out.println("Start machine");
     }
 
     @Override
     public void stop() {
-        System.out.println("Stop Machine");
+        System.out.println("Stop machine");
     }
 
     @Override
     public void rotateLeft() {
-        System.out.println("RotateLeft");
+        System.out.println("Rotate driller left");
     }
 
     @Override
     public void rotateRight() {
-        System.out.println("RotateRight");
+        System.out.println("Rotate driller right");
     }
 }

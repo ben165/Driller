@@ -6,13 +6,13 @@ import java.util.Map;
 public enum ServiceName {
     A_SERVICE(ServiceName.serviceAName, 1),
     B_SERVICE(ServiceName.serviceBName, 2),
-    C_SERVICE(ServiceName.serviceBName, 3),
-    D_SERVICE(ServiceName.serviceBName, 4);
+    C_SERVICE(ServiceName.serviceCName, 3),
+    D_SERVICE(ServiceName.serviceDName, 4);
 
-    public static final String serviceAName = "Start Drilling";
-    public static final String serviceBName = "Stop Drilling";
-    public static final String serviceCName = "Left Drilling";
-    public static final String serviceDName = "Right Drilling";
+    public static final String serviceAName = "Service Start";
+    public static final String serviceBName = "Service Stop";
+    public static final String serviceCName = "Service Left Drilling";
+    public static final String serviceDName = "Service Right Drilling";
     private static final Map<Integer, ServiceName> BY_INDEX = new HashMap<>();
 
     static {

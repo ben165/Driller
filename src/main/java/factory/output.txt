@@ -1,0 +1,15 @@
+shell:>cmd start
+Start machine
+Service Start
+shell:>cmd right
+Rotate driller right
+Service Right Drilling
+shell:>cmd left
+Rotate driller left
+Service Left Drilling
+shell:>cmd stop
+Stop machine
+Service Stop
+shell:>exit
+
+Process finished with exit code 0
